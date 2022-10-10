@@ -22,19 +22,3 @@ jobs:
 
       - name: Running event code script
       - run: python download.py
-
-      # - name: Commit CDC Event Code changes
-      #   uses: EndBug/add-and-commit@v8
-      #   with:
-      #     author_name: Github Action Bot
-      #     author_email: noreply@github.com
-      #     message: 'Nightly update of CDC event code changes'
-      #     add: 'data/*'
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # - name: Push changes
-      #   uses: ad-m/github-push-action@master
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     branch: ${{ github.ref }}
