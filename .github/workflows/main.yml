@@ -18,6 +18,8 @@ jobs:
         with:
           python-version: '3.10.7'
           cache: 'pip' # caching pip dependencies
+
+      - name: Install third party libraries
         run: pip install -r requirements.txt
 
       - name: Running event code script
