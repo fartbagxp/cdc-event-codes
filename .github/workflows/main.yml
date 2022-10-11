@@ -25,18 +25,18 @@ jobs:
       - name: Running event code script
         run: python download.py
 
-      # - name: Commit CDC Event Code changes
-      #   uses: EndBug/add-and-commit@v8
-      #   with:
-      #     author_name: Github Action Bot
-      #     author_email: noreply@github.com
-      #     message: 'Nightly update of CDC event code changes'
-      #     add: 'data/*'
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit CDC Event Code changes
+        uses: EndBug/add-and-commit@d4d066316a2a85974a05efb42be78f897793c6d9 #EndBug/add-and-commit@9.1.0
+        with:
+          author_name: Github Action Bot
+          author_email: noreply@github.com
+          message: 'Nightly update of CDC event code changes'
+          add: 'data/*'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # - name: Push changes
-      #   uses: ad-m/github-push-action@master
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     branch: ${{ github.ref }}
+      - name: Push changes
+        uses: ad-m/github-push-action@40bf560936a8022e68a3c00e7d2abefaf01305a6 @ad-m/github-push-action@0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}

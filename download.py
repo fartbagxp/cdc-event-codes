@@ -8,6 +8,8 @@ import requests
 import zipfile
 
 from markdownTable import markdownTable
+from urllib.parse import urlparse
+from urllib.parse import parse_qs
 
 TARGET_DIR="data/raw/"
 VALUESET_RSS_FEED_URL="https://phinvads.cdc.gov/vads/ValueSetRssFeed.xml?oid=2.16.840.1.114222.4.11.1015"
@@ -29,12 +31,17 @@ def summarize_rss(text):
   print(f"Number of Event code changes: {len(d['items'])}")
   event_codes = []
 
+
+
   if 'items' in d:
     for item in d['items']:
+      parsed_url = urlparse(item['link'])
+      captured_value = parse_qs(parsed_url.query)['id'][0]
       code = {
         'updated': item.updated,
         'version': item.title,
-        'link': item.link
+        'link': item.link,
+        'guid': captured_value
       }
       event_codes.append(code)
   return event_codes
@@ -43,7 +50,7 @@ def write_markdown(event_codes):
   print(markdownTable(event_codes).getMarkdown())
 
 def unzip_and_remove(target_dir, filename):
-  filepath = os.path.abspath(os.path.join(target_dir, filename))
+  filepath = os.path.join(target_dir, filename)
   zip_ref = zipfile.ZipFile(filepath)
   zip_ref.extractall(target_dir)
   zip_ref.close()
@@ -90,6 +97,21 @@ def download_valueset(id, target_path):
     'Cache-Control': 'no-cache'
   }
 
+  print(f'cookiejar = {s.cookies}')
+  http_session_cookie = ''
+  for cookie in s.cookies:
+    if cookie.name == 'JSESSIONID':
+      http_session_cookie = cookie.value
+  print(f'cookie value is {http_session_cookie}')
+
+  raw_data=f'callCount=1\npage=/vads/ViewValueSet.action?id={id}\nhttpSessionId={http_session_cookie}\nscriptSessionId={http_session_cookie}\nc0-scriptName=searchResultsManager\nc0-methodName=setDownloadFormat\nc0-id=0\nc0-param0=string:Text\nbatchId=0\n'
+
+  s.post('https://phinvads.cdc.gov/vads/dwr/call/plaincall/searchResultsManager.setDownloadFormat.dwr',
+    headers=headers,
+    cookies=s.cookies,
+    data=raw_data
+  )
+
   s.get('https://phinvads.cdc.gov/vads/AJAXSelectValueSetDirectDownload.action?_=1665378527294',
     headers=headers,
     cookies=s.cookies
@@ -113,6 +135,7 @@ def download_valueset(id, target_path):
   filepath = os.path.join(target_path, filename)
   with open(filepath, 'wb') as f:
     f.write(res.content)
+  return filename
 
 def main():
   print('Starting Event Code lookup and collection')
@@ -123,9 +146,10 @@ def main():
   event_codes = summarize_rss(text)
   # write_markdown(event_codes)
 
-  download_valueset('4FD34BBC-617F-DD11-B38D-00188B398520', TARGET_DIR)
-  download_valueset('A02D2588-5E66-DE11-9B52-0015173D1785', TARGET_DIR)
-  download_valueset('2FB63964-45BB-E711-ACE2-0017A477041A', TARGET_DIR)
+  for code in event_codes:
+    filename = download_valueset(code['guid'], TARGET_DIR)
+    unzip_and_remove(TARGET_DIR, filename)
+    
   print('Completed Event Code lookup and collection')
 
 if __name__ == '__main__':
