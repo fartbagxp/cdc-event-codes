@@ -2,7 +2,6 @@ on:
   push:
     branches:
       - main
-      - dev/collect-event-codes
   schedule:
     - cron: '45 17 * * *'
 
@@ -36,7 +35,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push changes
-        uses: ad-m/github-push-action@40bf560936a8022e68a3c00e7d2abefaf01305a6 @ad-m/github-push-action@0.6.0
+        uses: ad-m/github-push-action@40bf560936a8022e68a3c00e7d2abefaf01305a6 #ad-m/github-push-action@0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
