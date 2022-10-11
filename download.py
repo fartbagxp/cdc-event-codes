@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import dateutil.parser
 import feedparser
 import os
 import re
@@ -7,12 +8,22 @@ import sys
 import requests
 import zipfile
 
+from datetime import datetime
+from dateutil.relativedelta import relativedelta
 from markdownTable import markdownTable
 from urllib.parse import urlparse
 from urllib.parse import parse_qs
 
 TARGET_DIR="data/raw/"
 VALUESET_RSS_FEED_URL="https://phinvads.cdc.gov/vads/ValueSetRssFeed.xml?oid=2.16.840.1.114222.4.11.1015"
+
+#####################################################################
+### This value decides how long ago should we look up the files we
+### should be downloading. For example, a year has 12 months.
+### If this value is set to that, we'll be looking for files within
+### the last year.
+#####################################################################
+LIMIT_FOR_DOWNLOAD_IN_MONTHS=12 
 
 def write(path=None, data=None):
   if data is None:
@@ -28,10 +39,8 @@ def summarize_rss(text):
   d = feedparser.parse(text)
   print("Parsing RSS feed: ")
   print(f"RSS version: {d.version}")
-  print(f"Number of Event code changes: {len(d['items'])}")
+  print(f"Total number of Event Code changes: {len(d['items'])}")
   event_codes = []
-
-
 
   if 'items' in d:
     for item in d['items']:
@@ -97,13 +106,10 @@ def download_valueset(id, target_path):
     'Cache-Control': 'no-cache'
   }
 
-  print(f'cookiejar = {s.cookies}')
   http_session_cookie = ''
   for cookie in s.cookies:
     if cookie.name == 'JSESSIONID':
       http_session_cookie = cookie.value
-  print(f'cookie value is {http_session_cookie}')
-
   raw_data=f'callCount=1\npage=/vads/ViewValueSet.action?id={id}\nhttpSessionId={http_session_cookie}\nscriptSessionId={http_session_cookie}\nc0-scriptName=searchResultsManager\nc0-methodName=setDownloadFormat\nc0-id=0\nc0-param0=string:Text\nbatchId=0\n'
 
   s.post('https://phinvads.cdc.gov/vads/dwr/call/plaincall/searchResultsManager.setDownloadFormat.dwr',
@@ -146,10 +152,20 @@ def main():
   event_codes = summarize_rss(text)
   # write_markdown(event_codes)
 
+  to_download = []
   for code in event_codes:
+    date_now = datetime.utcnow()
+    a_year_ago = date_now - relativedelta(months=LIMIT_FOR_DOWNLOAD_IN_MONTHS)
+    code_updated = dateutil.parser.isoparse(code['updated']).replace(tzinfo=None)
+    
+    if code_updated > a_year_ago:
+      print(f"Event code {code['link']} was updated within the last {LIMIT_FOR_DOWNLOAD_IN_MONTHS} months. Adding to list for download.")
+      to_download.append(code)
+
+  for code in to_download:
     filename = download_valueset(code['guid'], TARGET_DIR)
     unzip_and_remove(TARGET_DIR, filename)
-    
+
   print('Completed Event Code lookup and collection')
 
 if __name__ == '__main__':
