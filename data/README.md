@@ -1,0 +1,46 @@
+## Overview
+
+This folder includes event codes raw files pulled from [PHIN VAD](https://www.cdc.gov/phin/tools/phinvads/index.html) - the Public Health Information Network Vocabulary Access Distribution System.
+
+Their contact info is phinvs@cdc.gov.
+
+## Updates
+
+This is a table of updates from the PHIN VAD Value Set Codes.
+|  version |       updated      |                                                              guid                                                              |
+|----------|--------------------|--------------------------------------------------------------------------------------------------------------------------------|
+|Version 35|2022-02-01T05:00:00Z|[34ED25E7-F582-EC11-81AA-005056ABE2F0](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=34ED25E7-F582-EC11-81AA-005056ABE2F0)|
+|Version 34|2022-02-01T05:00:00Z|[61CDD7B3-F182-EC11-81AA-005056ABE2F0](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=61CDD7B3-F182-EC11-81AA-005056ABE2F0)|
+|Version 33|2021-01-29T05:00:00Z|[E07E5EFA-829F-EA11-818D-005056ABE2F0](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=E07E5EFA-829F-EA11-818D-005056ABE2F0)|
+|Version 32|2020-05-20T04:00:00Z|[24C0BCD1-7690-EA11-818C-005056ABE2F0](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=24C0BCD1-7690-EA11-818C-005056ABE2F0)|
+|Version 31|2019-11-19T05:00:00Z|[0755B6DB-E707-EA11-8182-005056ABE2F0](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=0755B6DB-E707-EA11-8182-005056ABE2F0)|
+|Version 30|2019-06-14T04:00:00Z|[5DE43FD3-B28E-E911-817D-005056ABE2F0](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=5DE43FD3-B28E-E911-817D-005056ABE2F0)|
+|Version 29|2018-12-19T05:00:00Z|[9750E8F5-AF03-E911-8173-005056ABE2F0](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=9750E8F5-AF03-E911-8173-005056ABE2F0)|
+|Version 28|2018-12-13T05:00:00Z|[4051CF3B-57FF-E811-8173-005056ABE2F0](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=4051CF3B-57FF-E811-8173-005056ABE2F0)|
+|Version 27|2018-12-11T05:00:00Z|[53AC4806-91FD-E811-939C-0017A477041A](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=53AC4806-91FD-E811-939C-0017A477041A)|
+|Version 26|2018-05-01T04:00:00Z|[3F1720E9-694D-E811-9E69-0017A477041A](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=3F1720E9-694D-E811-9E69-0017A477041A)|
+|Version 25|2017-12-08T05:00:00Z|[4AF37978-7EDB-E711-B634-0017A477041A](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=4AF37978-7EDB-E711-B634-0017A477041A)|
+|Version 24|2017-12-07T05:00:00Z|[2FB63964-45BB-E711-ACE2-0017A477041A](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=2FB63964-45BB-E711-ACE2-0017A477041A)|
+|Version 23|2016-12-15T05:00:00Z|[6F73B071-224A-400F-A872-06FA1655B2AE](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=6F73B071-224A-400F-A872-06FA1655B2AE)|
+|Version 22|2016-12-13T05:00:00Z|[64A1CD10-2315-4616-BA7D-1125E81EDCBF](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=64A1CD10-2315-4616-BA7D-1125E81EDCBF)|
+|Version 21|2016-09-26T04:00:00Z|[677D9670-E46E-E611-B21F-0017A477041A](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=677D9670-E46E-E611-B21F-0017A477041A)|
+|Version 20|2016-08-30T04:00:00Z|[8DB685AA-E36E-E611-B21F-0017A477041A](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=8DB685AA-E36E-E611-B21F-0017A477041A)|
+|Version 19|2016-06-01T04:00:00Z|[9CAF3F7A-1F28-E611-BD10-0017A477041A](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=9CAF3F7A-1F28-E611-BD10-0017A477041A)|
+|Version 18|2016-06-01T04:00:00Z|[5BC1E287-1E28-E611-BD10-0017A477041A](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=5BC1E287-1E28-E611-BD10-0017A477041A)|
+|Version 17|2016-04-01T04:00:00Z|[CDB876B0-3EF8-E511-9555-0017A477041A](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=CDB876B0-3EF8-E511-9555-0017A477041A)|
+|Version 16|2016-04-01T04:00:00Z|[CD9429AF-3DF8-E511-9555-0017A477041A](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=CD9429AF-3DF8-E511-9555-0017A477041A)|
+|Version 15|2016-02-01T05:00:00Z|[A66F4066-34C9-E511-9D24-0017A477041A](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=A66F4066-34C9-E511-9D24-0017A477041A)|
+|Version 14|2016-02-01T05:00:00Z|[48F9C941-33C9-E511-9D24-0017A477041A](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=48F9C941-33C9-E511-9D24-0017A477041A)|
+|Version 13|2016-01-21T05:00:00Z|[B4860AE2-56C0-E511-9D24-0017A477041A](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=B4860AE2-56C0-E511-9D24-0017A477041A)|
+|Version 12|2016-01-22T05:00:00Z|[CC2F0183-55C0-E511-9D24-0017A477041A](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=CC2F0183-55C0-E511-9D24-0017A477041A)|
+|Version 11|2015-12-18T05:00:00Z|[BD4FF1E8-253A-42BD-B79C-02F2F1B3B58F](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=BD4FF1E8-253A-42BD-B79C-02F2F1B3B58F)|
+|Version 10|2015-12-18T05:00:00Z|[382686D4-AC88-4004-BBAD-D9DBDE94C46A](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=382686D4-AC88-4004-BBAD-D9DBDE94C46A)|
+| Version 9|2015-07-06T04:00:00Z|[99D12BFB-C331-4789-9D0D-B935984A49D3](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=99D12BFB-C331-4789-9D0D-B935984A49D3)|
+| Version 8|2014-02-13T19:30:47Z|[C9B923FB-57E6-4C12-95F3-273DDAE352E7](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=C9B923FB-57E6-4C12-95F3-273DDAE352E7)|
+| Version 7|2013-07-15T04:00:00Z|[9BD0BE1E-4BED-E211-B8F2-0017A477041A](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=9BD0BE1E-4BED-E211-B8F2-0017A477041A)|
+| Version 6|2013-03-20T04:00:00Z|[7D39DCF3-8591-E211-89A9-0017A477041A](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=7D39DCF3-8591-E211-89A9-0017A477041A)|
+| Version 5|2012-04-02T04:00:00Z|[9C8F1BD4-337D-E111-8403-0050568D00F8](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=9C8F1BD4-337D-E111-8403-0050568D00F8)|
+| Version 4|2011-05-16T04:00:00Z|[8C18A2AD-E87F-E011-A0BD-00188B39829B](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=8C18A2AD-E87F-E011-A0BD-00188B39829B)|
+| Version 3|2010-02-22T15:59:24Z|[C079DD3E-CB1F-DF11-B334-0015173D1785](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=C079DD3E-CB1F-DF11-B334-0015173D1785)|
+| Version 2|2009-07-01T16:45:07Z|[A02D2588-5E66-DE11-9B52-0015173D1785](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=A02D2588-5E66-DE11-9B52-0015173D1785)|
+| Version 1|2009-01-29T15:27:02Z|[4FD34BBC-617F-DD11-B38D-00188B398520](http://phinvads.cdc.gov/vads/ViewValueSet.action?id=4FD34BBC-617F-DD11-B38D-00188B398520)|
