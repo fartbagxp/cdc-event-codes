@@ -64,15 +64,18 @@ def write_event_code_summary(target_dir, event_codes):
   json_object = json.dumps(event_codes, indent=2)
   write(filepath, json_object)
 
-def write_event_code_markdown(target_dir, event_codes):
+def write_event_code_markdown(target_dir, target_dir_raw, event_codes):
   filename = 'README.md'
   filepath = os.path.join(target_dir, filename)
   markdown_codes = []
+
   for code in event_codes:
+    version_num = re.findall('[0-9]+', code['version'])[0]
     row = {
       'version': code['version'],
       'updated': code['updated'],
-      'guid': f"[{code['guid']}]({code['link']})"
+      'guid': f"[{code['guid']}]({code['link']})",
+      'download': f"[V{version_num}](/{target_dir_raw}ValueSets\PHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V{version_num}.txt)"
     }
     markdown_codes.append(row)
 
@@ -177,7 +180,7 @@ def main():
     sys.exit(1)
   event_codes = summarize_rss(text)
   write_event_code_summary(TARGET_DIR_FOR_GEN_DATA, event_codes)
-  write_event_code_markdown(TARGET_DIR_FOR_GEN_DATA, event_codes)
+  write_event_code_markdown(TARGET_DIR_FOR_GEN_DATA, TARGET_DIR_FOR_RAW_DATA, event_codes)
 
   to_download = []
   for code in event_codes:

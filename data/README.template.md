@@ -6,4 +6,4 @@ Their contact info is phinvs@cdc.gov.
 
 ## Updates
 
-This is a table of updates from the PHIN VAD Value Set Codes.
+This is a table of updates from the [PHIN VAD Value Set Codes](https://phinvads.cdc.gov/vads/ViewValueSet.action?id=34ED25E7-F582-EC11-81AA-005056ABE2F0).
