@@ -3,210 +3,245 @@
     "updated": "2022-02-01T05:00:00Z",
     "version": "Version 35",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=34ED25E7-F582-EC11-81AA-005056ABE2F0",
-    "guid": "34ED25E7-F582-EC11-81AA-005056ABE2F0"
+    "guid": "34ED25E7-F582-EC11-81AA-005056ABE2F0",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V35.txt"
   },
   {
     "updated": "2022-02-01T05:00:00Z",
     "version": "Version 34",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=61CDD7B3-F182-EC11-81AA-005056ABE2F0",
-    "guid": "61CDD7B3-F182-EC11-81AA-005056ABE2F0"
+    "guid": "61CDD7B3-F182-EC11-81AA-005056ABE2F0",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V34.txt"
   },
   {
     "updated": "2021-01-29T05:00:00Z",
     "version": "Version 33",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=E07E5EFA-829F-EA11-818D-005056ABE2F0",
-    "guid": "E07E5EFA-829F-EA11-818D-005056ABE2F0"
+    "guid": "E07E5EFA-829F-EA11-818D-005056ABE2F0",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V33.txt"
   },
   {
     "updated": "2020-05-20T04:00:00Z",
     "version": "Version 32",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=24C0BCD1-7690-EA11-818C-005056ABE2F0",
-    "guid": "24C0BCD1-7690-EA11-818C-005056ABE2F0"
+    "guid": "24C0BCD1-7690-EA11-818C-005056ABE2F0",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V32.txt"
   },
   {
     "updated": "2019-11-19T05:00:00Z",
     "version": "Version 31",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=0755B6DB-E707-EA11-8182-005056ABE2F0",
-    "guid": "0755B6DB-E707-EA11-8182-005056ABE2F0"
+    "guid": "0755B6DB-E707-EA11-8182-005056ABE2F0",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V31.txt"
   },
   {
     "updated": "2019-06-14T04:00:00Z",
     "version": "Version 30",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=5DE43FD3-B28E-E911-817D-005056ABE2F0",
-    "guid": "5DE43FD3-B28E-E911-817D-005056ABE2F0"
+    "guid": "5DE43FD3-B28E-E911-817D-005056ABE2F0",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V30.txt"
   },
   {
     "updated": "2018-12-19T05:00:00Z",
     "version": "Version 29",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=9750E8F5-AF03-E911-8173-005056ABE2F0",
-    "guid": "9750E8F5-AF03-E911-8173-005056ABE2F0"
+    "guid": "9750E8F5-AF03-E911-8173-005056ABE2F0",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V29.txt"
   },
   {
     "updated": "2018-12-13T05:00:00Z",
     "version": "Version 28",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=4051CF3B-57FF-E811-8173-005056ABE2F0",
-    "guid": "4051CF3B-57FF-E811-8173-005056ABE2F0"
+    "guid": "4051CF3B-57FF-E811-8173-005056ABE2F0",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V28.txt"
   },
   {
     "updated": "2018-12-11T05:00:00Z",
     "version": "Version 27",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=53AC4806-91FD-E811-939C-0017A477041A",
-    "guid": "53AC4806-91FD-E811-939C-0017A477041A"
+    "guid": "53AC4806-91FD-E811-939C-0017A477041A",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V27.txt"
   },
   {
     "updated": "2018-05-01T04:00:00Z",
     "version": "Version 26",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=3F1720E9-694D-E811-9E69-0017A477041A",
-    "guid": "3F1720E9-694D-E811-9E69-0017A477041A"
+    "guid": "3F1720E9-694D-E811-9E69-0017A477041A",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V26.txt"
   },
   {
     "updated": "2017-12-08T05:00:00Z",
     "version": "Version 25",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=4AF37978-7EDB-E711-B634-0017A477041A",
-    "guid": "4AF37978-7EDB-E711-B634-0017A477041A"
+    "guid": "4AF37978-7EDB-E711-B634-0017A477041A",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V25.txt"
   },
   {
     "updated": "2017-12-07T05:00:00Z",
     "version": "Version 24",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=2FB63964-45BB-E711-ACE2-0017A477041A",
-    "guid": "2FB63964-45BB-E711-ACE2-0017A477041A"
+    "guid": "2FB63964-45BB-E711-ACE2-0017A477041A",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V24.txt"
   },
   {
     "updated": "2016-12-15T05:00:00Z",
     "version": "Version 23",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=6F73B071-224A-400F-A872-06FA1655B2AE",
-    "guid": "6F73B071-224A-400F-A872-06FA1655B2AE"
+    "guid": "6F73B071-224A-400F-A872-06FA1655B2AE",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V23.txt"
   },
   {
     "updated": "2016-12-13T05:00:00Z",
     "version": "Version 22",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=64A1CD10-2315-4616-BA7D-1125E81EDCBF",
-    "guid": "64A1CD10-2315-4616-BA7D-1125E81EDCBF"
+    "guid": "64A1CD10-2315-4616-BA7D-1125E81EDCBF",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V22.txt"
   },
   {
     "updated": "2016-09-26T04:00:00Z",
     "version": "Version 21",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=677D9670-E46E-E611-B21F-0017A477041A",
-    "guid": "677D9670-E46E-E611-B21F-0017A477041A"
+    "guid": "677D9670-E46E-E611-B21F-0017A477041A",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V21.txt"
   },
   {
     "updated": "2016-08-30T04:00:00Z",
     "version": "Version 20",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=8DB685AA-E36E-E611-B21F-0017A477041A",
-    "guid": "8DB685AA-E36E-E611-B21F-0017A477041A"
+    "guid": "8DB685AA-E36E-E611-B21F-0017A477041A",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V20.txt"
   },
   {
     "updated": "2016-06-01T04:00:00Z",
     "version": "Version 19",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=9CAF3F7A-1F28-E611-BD10-0017A477041A",
-    "guid": "9CAF3F7A-1F28-E611-BD10-0017A477041A"
+    "guid": "9CAF3F7A-1F28-E611-BD10-0017A477041A",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V19.txt"
   },
   {
     "updated": "2016-06-01T04:00:00Z",
     "version": "Version 18",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=5BC1E287-1E28-E611-BD10-0017A477041A",
-    "guid": "5BC1E287-1E28-E611-BD10-0017A477041A"
+    "guid": "5BC1E287-1E28-E611-BD10-0017A477041A",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V18.txt"
   },
   {
     "updated": "2016-04-01T04:00:00Z",
     "version": "Version 17",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=CDB876B0-3EF8-E511-9555-0017A477041A",
-    "guid": "CDB876B0-3EF8-E511-9555-0017A477041A"
+    "guid": "CDB876B0-3EF8-E511-9555-0017A477041A",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V17.txt"
   },
   {
     "updated": "2016-04-01T04:00:00Z",
     "version": "Version 16",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=CD9429AF-3DF8-E511-9555-0017A477041A",
-    "guid": "CD9429AF-3DF8-E511-9555-0017A477041A"
+    "guid": "CD9429AF-3DF8-E511-9555-0017A477041A",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V16.txt"
   },
   {
     "updated": "2016-02-01T05:00:00Z",
     "version": "Version 15",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=A66F4066-34C9-E511-9D24-0017A477041A",
-    "guid": "A66F4066-34C9-E511-9D24-0017A477041A"
+    "guid": "A66F4066-34C9-E511-9D24-0017A477041A",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V15.txt"
   },
   {
     "updated": "2016-02-01T05:00:00Z",
     "version": "Version 14",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=48F9C941-33C9-E511-9D24-0017A477041A",
-    "guid": "48F9C941-33C9-E511-9D24-0017A477041A"
+    "guid": "48F9C941-33C9-E511-9D24-0017A477041A",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V14.txt"
   },
   {
     "updated": "2016-01-21T05:00:00Z",
     "version": "Version 13",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=B4860AE2-56C0-E511-9D24-0017A477041A",
-    "guid": "B4860AE2-56C0-E511-9D24-0017A477041A"
+    "guid": "B4860AE2-56C0-E511-9D24-0017A477041A",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V13.txt"
   },
   {
     "updated": "2016-01-22T05:00:00Z",
     "version": "Version 12",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=CC2F0183-55C0-E511-9D24-0017A477041A",
-    "guid": "CC2F0183-55C0-E511-9D24-0017A477041A"
+    "guid": "CC2F0183-55C0-E511-9D24-0017A477041A",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V12.txt"
   },
   {
     "updated": "2015-12-18T05:00:00Z",
     "version": "Version 11",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=BD4FF1E8-253A-42BD-B79C-02F2F1B3B58F",
-    "guid": "BD4FF1E8-253A-42BD-B79C-02F2F1B3B58F"
+    "guid": "BD4FF1E8-253A-42BD-B79C-02F2F1B3B58F",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V11.txt"
   },
   {
     "updated": "2015-12-18T05:00:00Z",
     "version": "Version 10",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=382686D4-AC88-4004-BBAD-D9DBDE94C46A",
-    "guid": "382686D4-AC88-4004-BBAD-D9DBDE94C46A"
+    "guid": "382686D4-AC88-4004-BBAD-D9DBDE94C46A",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V10.txt"
   },
   {
     "updated": "2015-07-06T04:00:00Z",
     "version": "Version 9",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=99D12BFB-C331-4789-9D0D-B935984A49D3",
-    "guid": "99D12BFB-C331-4789-9D0D-B935984A49D3"
+    "guid": "99D12BFB-C331-4789-9D0D-B935984A49D3",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V9.txt"
   },
   {
     "updated": "2014-02-13T19:30:47Z",
     "version": "Version 8",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=C9B923FB-57E6-4C12-95F3-273DDAE352E7",
-    "guid": "C9B923FB-57E6-4C12-95F3-273DDAE352E7"
+    "guid": "C9B923FB-57E6-4C12-95F3-273DDAE352E7",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V8.txt"
   },
   {
     "updated": "2013-07-15T04:00:00Z",
     "version": "Version 7",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=9BD0BE1E-4BED-E211-B8F2-0017A477041A",
-    "guid": "9BD0BE1E-4BED-E211-B8F2-0017A477041A"
+    "guid": "9BD0BE1E-4BED-E211-B8F2-0017A477041A",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V7.txt"
   },
   {
     "updated": "2013-03-20T04:00:00Z",
     "version": "Version 6",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=7D39DCF3-8591-E211-89A9-0017A477041A",
-    "guid": "7D39DCF3-8591-E211-89A9-0017A477041A"
+    "guid": "7D39DCF3-8591-E211-89A9-0017A477041A",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V6.txt"
   },
   {
     "updated": "2012-04-02T04:00:00Z",
     "version": "Version 5",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=9C8F1BD4-337D-E111-8403-0050568D00F8",
-    "guid": "9C8F1BD4-337D-E111-8403-0050568D00F8"
+    "guid": "9C8F1BD4-337D-E111-8403-0050568D00F8",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V5.txt"
   },
   {
     "updated": "2011-05-16T04:00:00Z",
     "version": "Version 4",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=8C18A2AD-E87F-E011-A0BD-00188B39829B",
-    "guid": "8C18A2AD-E87F-E011-A0BD-00188B39829B"
+    "guid": "8C18A2AD-E87F-E011-A0BD-00188B39829B",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V4.txt"
   },
   {
     "updated": "2010-02-22T15:59:24Z",
     "version": "Version 3",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=C079DD3E-CB1F-DF11-B334-0015173D1785",
-    "guid": "C079DD3E-CB1F-DF11-B334-0015173D1785"
+    "guid": "C079DD3E-CB1F-DF11-B334-0015173D1785",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V3.txt"
   },
   {
     "updated": "2009-07-01T16:45:07Z",
     "version": "Version 2",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=A02D2588-5E66-DE11-9B52-0015173D1785",
-    "guid": "A02D2588-5E66-DE11-9B52-0015173D1785"
+    "guid": "A02D2588-5E66-DE11-9B52-0015173D1785",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V2.txt"
   },
   {
     "updated": "2009-01-29T15:27:02Z",
     "version": "Version 1",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=4FD34BBC-617F-DD11-B38D-00188B398520",
-    "guid": "4FD34BBC-617F-DD11-B38D-00188B398520"
+    "guid": "4FD34BBC-617F-DD11-B38D-00188B398520",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V1.txt"
   }
 ]
