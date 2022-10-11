@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/">
+  <channel rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?oid=2.16.840.1.114222.4.11.1015">
+    <title>Nationally Notifiable Disease Surveillance System (NNDSS) &amp; Other Conditions of Public Health Importance Value Set Updates</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?oid=2.16.840.1.114222.4.11.1015</link>
+    <description>Update notifications for new versions of this value set.</description>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=34ED25E7-F582-EC11-81AA-005056ABE2F0" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=61CDD7B3-F182-EC11-81AA-005056ABE2F0" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=E07E5EFA-829F-EA11-818D-005056ABE2F0" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=24C0BCD1-7690-EA11-818C-005056ABE2F0" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=0755B6DB-E707-EA11-8182-005056ABE2F0" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=5DE43FD3-B28E-E911-817D-005056ABE2F0" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=9750E8F5-AF03-E911-8173-005056ABE2F0" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=4051CF3B-57FF-E811-8173-005056ABE2F0" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=53AC4806-91FD-E811-939C-0017A477041A" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=3F1720E9-694D-E811-9E69-0017A477041A" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=4AF37978-7EDB-E711-B634-0017A477041A" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=2FB63964-45BB-E711-ACE2-0017A477041A" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=6F73B071-224A-400F-A872-06FA1655B2AE" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=64A1CD10-2315-4616-BA7D-1125E81EDCBF" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=677D9670-E46E-E611-B21F-0017A477041A" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=8DB685AA-E36E-E611-B21F-0017A477041A" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=9CAF3F7A-1F28-E611-BD10-0017A477041A" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=5BC1E287-1E28-E611-BD10-0017A477041A" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=CDB876B0-3EF8-E511-9555-0017A477041A" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=CD9429AF-3DF8-E511-9555-0017A477041A" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=A66F4066-34C9-E511-9D24-0017A477041A" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=48F9C941-33C9-E511-9D24-0017A477041A" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=B4860AE2-56C0-E511-9D24-0017A477041A" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=CC2F0183-55C0-E511-9D24-0017A477041A" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=BD4FF1E8-253A-42BD-B79C-02F2F1B3B58F" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=382686D4-AC88-4004-BBAD-D9DBDE94C46A" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=99D12BFB-C331-4789-9D0D-B935984A49D3" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=C9B923FB-57E6-4C12-95F3-273DDAE352E7" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=9BD0BE1E-4BED-E211-B8F2-0017A477041A" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=7D39DCF3-8591-E211-89A9-0017A477041A" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=9C8F1BD4-337D-E111-8403-0050568D00F8" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=8C18A2AD-E87F-E011-A0BD-00188B39829B" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=C079DD3E-CB1F-DF11-B334-0015173D1785" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=A02D2588-5E66-DE11-9B52-0015173D1785" />
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=4FD34BBC-617F-DD11-B38D-00188B398520" />
+      </rdf:Seq>
+    </items>
+  </channel>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=34ED25E7-F582-EC11-81AA-005056ABE2F0">
+    <title>Version 35</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=34ED25E7-F582-EC11-81AA-005056ABE2F0</link>
+    <description>Value Set Version Description:v35 Event Code Vocabulary supporting 2022 NNDSS Event Code List Release 1</description>
+    <dc:date>2022-02-01T05:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=61CDD7B3-F182-EC11-81AA-005056ABE2F0">
+    <title>Version 34</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=61CDD7B3-F182-EC11-81AA-005056ABE2F0</link>
+    <description>Value Set Version Description:v34 Event Code Vocabulary supporting 2021 NNDSS Event Code List Release 2.</description>
+    <dc:date>2022-02-01T05:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=E07E5EFA-829F-EA11-818D-005056ABE2F0">
+    <title>Version 33</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=E07E5EFA-829F-EA11-818D-005056ABE2F0</link>
+    <description>Value Set Version Description:v33 Event Code Vocabulary supporting 2020 NNDSS Event Code List Release 3 and Release 4, and 2021 NNDSS Event Code List Release 1</description>
+    <dc:date>2021-01-29T05:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=24C0BCD1-7690-EA11-818C-005056ABE2F0">
+    <title>Version 32</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=24C0BCD1-7690-EA11-818C-005056ABE2F0</link>
+    <description>Value Set Version Description:v32: Updated to reflect additional codes to the 2020 Event Code List. Add 11065 COVID 2019 (11065) and Blastomycosis (11910)</description>
+    <dc:date>2020-05-20T04:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=0755B6DB-E707-EA11-8182-005056ABE2F0">
+    <title>Version 31</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=0755B6DB-E707-EA11-8182-005056ABE2F0</link>
+    <description>Value Set Version Description:v31: Updated to reflect 2020 Event Code List. Removed Carbapenem resistant Enterobacteriaceae (50120) and Carbapenem Resistant Acinetobacter Baumannii (50260)</description>
+    <dc:date>2019-11-19T05:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=5DE43FD3-B28E-E911-817D-005056ABE2F0">
+    <title>Version 30</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=5DE43FD3-B28E-E911-817D-005056ABE2F0</link>
+    <description>Value Set Version Description:Added the following concepts:50263 - Candida auris, clinical, 50264 - Candida auris, colonization/screening, 50244 - Carbapenemase-Producing Carbapenem-Resistant Enterobacteriaceae (CP-CRE), 32016 - Carbon Monoxide Poisoning, 11646 - Respiratory Syncytial Virus-Associated Deaths, 11566 - Enterotoxigenic E.coli (ETEC)</description>
+    <dc:date>2019-06-14T04:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=9750E8F5-AF03-E911-8173-005056ABE2F0">
+    <title>Version 29</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=9750E8F5-AF03-E911-8173-005056ABE2F0</link>
+    <description>Value Set Version Description:Updated event code list for 2019</description>
+    <dc:date>2018-12-19T05:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=4051CF3B-57FF-E811-8173-005056ABE2F0">
+    <title>Version 28</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=4051CF3B-57FF-E811-8173-005056ABE2F0</link>
+    <description>Value Set Version Description:Update to event code list for 2019</description>
+    <dc:date>2018-12-13T05:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=53AC4806-91FD-E811-939C-0017A477041A">
+    <title>Version 27</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=53AC4806-91FD-E811-939C-0017A477041A</link>
+    <description>Value Set Version Description:Event Code List updated for 2019</description>
+    <dc:date>2018-12-11T05:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=3F1720E9-694D-E811-9E69-0017A477041A">
+    <title>Version 26</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=3F1720E9-694D-E811-9E69-0017A477041A</link>
+    <description>Value Set Version Description:Added Histoplasmosis, Acute flaccid myelitis, Streptococcal disease, invasive, group A,  Streptococcal disease, invasive, group B and Neonatal sepsis</description>
+    <dc:date>2018-05-01T04:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=4AF37978-7EDB-E711-B634-0017A477041A">
+    <title>Version 25</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=4AF37978-7EDB-E711-B634-0017A477041A</link>
+    <description>Value Set Version Description:Event code list for 2018.Changes from 2017: Added Hepatitis C, perinatal infection, Paratyphoid fever (caused by Salmonella serotypes Paratyphi A, Paratyphi B [tartrate negative], and Paratyphi C), Salmonellosis, (excluding paratyphoid fever and typhoid fever), and Syphilis, unknown duration or late to the list.Renamed Syphilis, early latent to Syphilis, early non-primary, non-secondary and Perinatal Hepatitis B virus infection to Hepatitis B, perinatal infection.Removed Salmonellosis, Syphilis, late latent, Syphilis, late with clinical manifestations (including late benign syphilis and cardiovascular syphilis) from the list.</description>
+    <dc:date>2017-12-08T05:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=2FB63964-45BB-E711-ACE2-0017A477041A">
+    <title>Version 24</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=2FB63964-45BB-E711-ACE2-0017A477041A</link>
+    <description>Value Set Version Description:Event code list updated for 2017</description>
+    <dc:date>2017-12-07T05:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=6F73B071-224A-400F-A872-06FA1655B2AE">
+    <title>Version 23</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=6F73B071-224A-400F-A872-06FA1655B2AE</link>
+    <description>Value Set Version Description:Event code list for 2017 Changes from 2016:The name for Streptococcus pneumoniae, invasive disease (IPD) (all ages) was revised to Invasive pneumococcal disease (11723)Removed Zika virus disease, non-congenital infection (11726)Removed Zika virus, congenital infection (11736)Added three conditions that are under standardized surveillance Acanthamoeba disease (excluding keratitis) (50225)Balamuthia mandrillaris disease (50226)Naegleria fowleri causing Primary Amebic Meningoencephalitis (50227)</description>
+    <dc:date>2016-12-15T05:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=64A1CD10-2315-4616-BA7D-1125E81EDCBF">
+    <title>Version 22</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=64A1CD10-2315-4616-BA7D-1125E81EDCBF</link>
+    <description>Value Set Version Description:Event code list for 2017Changes from 2016:i.The name for Streptococcus pneumoniae, invasive disease (IPD) (all ages) was revised to Invasive pneumococcal disease (11723)ii.Removed Zika virus disease, non-congenital infection (11726)iii.Removed Zika virus, congenital infection (11736)iv.Added three conditions that are under standardized surveillance 1.Acanthamoeba disease (excluding keratitis) (50225)2.Balamuthia mandrillaris disease (50226)3.Naegleria fowleri causing Primary Amebic Meningoencephalitis (50227)</description>
+    <dc:date>2016-12-13T05:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=677D9670-E46E-E611-B21F-0017A477041A">
+    <title>Version 21</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=677D9670-E46E-E611-B21F-0017A477041A</link>
+    <description>Value Set Version Description:2016 Event Code List update - Added Zika virus infection, non congenital (50221), Zika virus infection, congenital (50222), Zika virus disease, non-congenital (50223), Zika virus disease, congenital (50224)</description>
+    <dc:date>2016-09-26T04:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=8DB685AA-E36E-E611-B21F-0017A477041A">
+    <title>Version 20</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=8DB685AA-E36E-E611-B21F-0017A477041A</link>
+    <description>Value Set Version Description:2015 Event Code List update - Removed: Zika virus disease (11726) Added: Chikungunya virus (10073), Dengue-like illness (11704), Hantavirus infection, non-Hantavirus Pulmonary Syndrome (11610)</description>
+    <dc:date>2016-08-30T04:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=9CAF3F7A-1F28-E611-BD10-0017A477041A">
+    <title>Version 19</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=9CAF3F7A-1F28-E611-BD10-0017A477041A</link>
+    <description>Value Set Version Description:2016 Event Code List update - Added Zika virus, congenital infection (11736) Updated Zika virus disease, non-congenital infection (11726)</description>
+    <dc:date>2016-06-01T04:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=5BC1E287-1E28-E611-BD10-0017A477041A">
+    <title>Version 18</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=5BC1E287-1E28-E611-BD10-0017A477041A</link>
+    <description>Value Set Version Description:2015 Event Code List update - Removed: Zika virus disease (11726) Added: Chikungunya virus (10073), Dengue-like illness (11704), Hantavirus infection, non-Hantavirus Pulmonary Syndrome (11610)</description>
+    <dc:date>2016-06-01T04:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=CDB876B0-3EF8-E511-9555-0017A477041A">
+    <title>Version 17</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=CDB876B0-3EF8-E511-9555-0017A477041A</link>
+    <description>Value Set Version Description:2016 Event Code List update - Added Chikungunya virus (10073), Dengue-like illness (11704), Hantavirus infection, non-Hantavirus Pulmonary Syndrome (11610)</description>
+    <dc:date>2016-04-01T04:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=CD9429AF-3DF8-E511-9555-0017A477041A">
+    <title>Version 16</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=CD9429AF-3DF8-E511-9555-0017A477041A</link>
+    <description>Value Set Version Description:2015 Event Code List update - Removed:Zika virus disease (11726) Added: Chikungunya virus (10073), Dengue-like illness (11704), Hantavirus infection, non-Hantavirus Pulmonary Syndrome (11610)</description>
+    <dc:date>2016-04-01T04:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=A66F4066-34C9-E511-9D24-0017A477041A">
+    <title>Version 15</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=A66F4066-34C9-E511-9D24-0017A477041A</link>
+    <description>Value Set Version Description:2016 Event Code List update - Added Chikungunya virus (10073), Dengue-like illness (11704), Hantavirus infection, non-Hantavirus Pulmonary Syndrome (11610)</description>
+    <dc:date>2016-02-01T05:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=48F9C941-33C9-E511-9D24-0017A477041A">
+    <title>Version 14</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=48F9C941-33C9-E511-9D24-0017A477041A</link>
+    <description>Value Set Version Description:2015 Event Code List update - Added Chikungunya virus (10073), Dengue-like illness (11704), Hantavirus infection, non-Hantavirus Pulmonary Syndrome (11610)</description>
+    <dc:date>2016-02-01T05:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=B4860AE2-56C0-E511-9D24-0017A477041A">
+    <title>Version 13</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=B4860AE2-56C0-E511-9D24-0017A477041A</link>
+    <description>Value Set Version Description:2016 Event Code List - Added Zika virus disease</description>
+    <dc:date>2016-01-21T05:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=CC2F0183-55C0-E511-9D24-0017A477041A">
+    <title>Version 12</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=CC2F0183-55C0-E511-9D24-0017A477041A</link>
+    <description>Value Set Version Description:2015 Event Code List update - added Zika virus disease</description>
+    <dc:date>2016-01-22T05:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=BD4FF1E8-253A-42BD-B79C-02F2F1B3B58F">
+    <title>Version 11</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=BD4FF1E8-253A-42BD-B79C-02F2F1B3B58F</link>
+    <description>Value Set Version Description:The NNID value set was updated based upon NND Event Code list update published by NNDSS in December 2015. For MMWR 2016.</description>
+    <dc:date>2015-12-18T05:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=382686D4-AC88-4004-BBAD-D9DBDE94C46A">
+    <title>Version 10</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=382686D4-AC88-4004-BBAD-D9DBDE94C46A</link>
+    <description>Value Set Version Description:The NNID value set was updated based upon NND Event Code list update published by NNDSS in December 2015.</description>
+    <dc:date>2015-12-18T05:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=99D12BFB-C331-4789-9D0D-B935984A49D3">
+    <title>Version 9</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=99D12BFB-C331-4789-9D0D-B935984A49D3</link>
+    <description>Value Set Version Description:The NNID value set was updated based upon NND Event Code list update published by NNDSS in Jan 2015.</description>
+    <dc:date>2015-07-06T04:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=C9B923FB-57E6-4C12-95F3-273DDAE352E7">
+    <title>Version 8</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=C9B923FB-57E6-4C12-95F3-273DDAE352E7</link>
+    <description>Value Set Version Description:Initial Import for : CB82B3A0-607F-DD11-B38D-00188B398520</description>
+    <dc:date>2014-02-13T19:30:47Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=9BD0BE1E-4BED-E211-B8F2-0017A477041A">
+    <title>Version 7</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=9BD0BE1E-4BED-E211-B8F2-0017A477041A</link>
+    <description>Value Set Version Description:v7 - removed Novel Coronavirus (11064)</description>
+    <dc:date>2013-07-15T04:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=7D39DCF3-8591-E211-89A9-0017A477041A">
+    <title>Version 6</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=7D39DCF3-8591-E211-89A9-0017A477041A</link>
+    <description>Value Set Version Description:added 11064 Novel Coronavirus</description>
+    <dc:date>2013-03-20T04:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=9C8F1BD4-337D-E111-8403-0050568D00F8">
+    <title>Version 5</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=9C8F1BD4-337D-E111-8403-0050568D00F8</link>
+    <description>Value Set Version Description:Added Meliodosis and removed HIV Codes as it is reportable via eHARS (HIV System)</description>
+    <dc:date>2012-04-02T04:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=8C18A2AD-E87F-E011-A0BD-00188B39829B">
+    <title>Version 4</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=8C18A2AD-E87F-E011-A0BD-00188B39829B</link>
+    <description>Value Set Version Description:Added Jamestown Canyon Virus - neuroinvasive and non-neuroinvasive</description>
+    <dc:date>2011-05-16T04:00:00Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=C079DD3E-CB1F-DF11-B334-0015173D1785">
+    <title>Version 3</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=C079DD3E-CB1F-DF11-B334-0015173D1785</link>
+    <description>Value Set Version Description:New Version based on NND Code System Release January 2010</description>
+    <dc:date>2010-02-22T15:59:24Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=A02D2588-5E66-DE11-9B52-0015173D1785">
+    <title>Version 2</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=A02D2588-5E66-DE11-9B52-0015173D1785</link>
+    <description>Value Set Version Description:Added the following 10072  Other Arbovirus, 10073  Chikungunya virus , 10093  Colorado tick fever virus, 10075  Flavivirus, 10077  LaCrosse virus</description>
+    <dc:date>2009-07-01T16:45:07Z</dc:date>
+  </item>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=4FD34BBC-617F-DD11-B38D-00188B398520">
+    <title>Version 1</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=4FD34BBC-617F-DD11-B38D-00188B398520</link>
+    <description>Value Set Version Description:Initial Load VADS 3.0</description>
+    <dc:date>2009-01-29T15:27:02Z</dc:date>
+  </item>
+</rdf:RDF>
+
