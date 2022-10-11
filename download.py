@@ -2,8 +2,10 @@
 
 import dateutil.parser
 import feedparser
+import json
 import os
 import re
+import shutil
 import sys
 import requests
 import zipfile
@@ -14,7 +16,8 @@ from markdownTable import markdownTable
 from urllib.parse import urlparse
 from urllib.parse import parse_qs
 
-TARGET_DIR="data/raw/"
+TARGET_DIR_FOR_GEN_DATA="data/"
+TARGET_DIR_FOR_RAW_DATA="data/raw/"
 VALUESET_RSS_FEED_URL="https://phinvads.cdc.gov/vads/ValueSetRssFeed.xml?oid=2.16.840.1.114222.4.11.1015"
 
 #####################################################################
@@ -55,8 +58,31 @@ def summarize_rss(text):
       event_codes.append(code)
   return event_codes
 
-def write_markdown(event_codes):
-  print(markdownTable(event_codes).getMarkdown())
+def write_event_code_summary(target_dir, event_codes):
+  filename = 'event_code_files.json'
+  filepath = os.path.join(target_dir, filename)
+  json_object = json.dumps(event_codes, indent=2)
+  write(filepath, json_object)
+
+def write_event_code_markdown(target_dir, event_codes):
+  filename = 'README.md'
+  filepath = os.path.join(target_dir, filename)
+  markdown_codes = []
+  for code in event_codes:
+    row = {
+      'version': code['version'],
+      'updated': code['updated'],
+      'guid': f"[{code['guid']}]({code['link']})"
+    }
+    markdown_codes.append(row)
+
+  template_filename = 'README.template.md'
+  template_filepath = os.path.join(target_dir, template_filename)
+  shutil.copyfile(template_filepath, filepath)
+  with open(filepath, 'a') as f:
+    f.write(markdownTable(markdown_codes)
+      .setParams(row_sep = 'markdown', quote = False)
+      .getMarkdown())
 
 def unzip_and_remove(target_dir, filename):
   filepath = os.path.join(target_dir, filename)
@@ -145,26 +171,27 @@ def download_valueset(id, target_path):
 
 def main():
   print('Starting Event Code lookup and collection')
-  text = download_and_save_rss(VALUESET_RSS_FEED_URL, TARGET_DIR)
+  text = download_and_save_rss(VALUESET_RSS_FEED_URL, TARGET_DIR_FOR_RAW_DATA)
   if text == None:
     print('Fetching RSS failure detected: exiting program.')
     sys.exit(1)
   event_codes = summarize_rss(text)
-  # write_markdown(event_codes)
+  write_event_code_summary(TARGET_DIR_FOR_GEN_DATA, event_codes)
+  write_event_code_markdown(TARGET_DIR_FOR_GEN_DATA, event_codes)
 
-  to_download = []
-  for code in event_codes:
-    date_now = datetime.utcnow()
-    a_year_ago = date_now - relativedelta(months=LIMIT_FOR_DOWNLOAD_IN_MONTHS)
-    code_updated = dateutil.parser.isoparse(code['updated']).replace(tzinfo=None)
+  # to_download = []
+  # for code in event_codes:
+  #   date_now = datetime.utcnow()
+  #   a_year_ago = date_now - relativedelta(months=LIMIT_FOR_DOWNLOAD_IN_MONTHS)
+  #   code_updated = dateutil.parser.isoparse(code['updated']).replace(tzinfo=None)
     
-    if code_updated > a_year_ago:
-      print(f"Event code {code['link']} was updated within the last {LIMIT_FOR_DOWNLOAD_IN_MONTHS} months. Adding to list for download.")
-      to_download.append(code)
+  #   if code_updated > a_year_ago:
+  #     print(f"Event code {code['link']} was updated within the last {LIMIT_FOR_DOWNLOAD_IN_MONTHS} months. Adding to list for download.")
+  #     to_download.append(code)
 
-  for code in to_download:
-    filename = download_valueset(code['guid'], TARGET_DIR)
-    unzip_and_remove(TARGET_DIR, filename)
+  # for code in to_download:
+  #   filename = download_valueset(code['guid'], TARGET_DIR_FOR_RAW_DATA)
+  #   unzip_and_remove(TARGET_DIR_FOR_RAW_DATA, filename)
 
   print('Completed Event Code lookup and collection')
 

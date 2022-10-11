@@ -1,6 +1,6 @@
 # CDC Event Code
 
-This repository is a continuous scrape of CDC event codes from public health information network (PHIN)'s notifiable event disease condition.
+This repository is a continuous scrape of CDC event codes / value set from public health information network (PHIN)'s notifiable event disease condition.
 
 ## Resources
 
@@ -8,7 +8,9 @@ This repository is a continuous scrape of CDC event codes from public health inf
 
 ## Latest Version
 
-The latest version is Version 35 and can be found [here](/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V35.txt).
+You can find the list of updates [here](/data/README.md).
+
+For a programmatic readable version of updates, go [here](/data/event_code_files.json).
 
 ## Setup
 

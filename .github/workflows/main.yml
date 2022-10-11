@@ -3,7 +3,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '45 17 * * *'
+    - cron: '45 17 * * *' # 45 17 is roughly 17:45 UTC (afternoon in the US east coast)
 
 jobs:
   deploy:
