@@ -6,6 +6,10 @@ This repository is a continuous scrape of CDC event codes from public health inf
 
 [PHIN ValueSet](https://phinvads.cdc.gov/vads/ViewValueSet.action?id=34ED25E7-F582-EC11-81AA-005056ABE2F0)
 
+## Latest Version
+
+The latest version is Version 35 and can be found [here](/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V35.txt).
+
 ## Setup
 
 - Simple Setup
