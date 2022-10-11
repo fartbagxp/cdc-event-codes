@@ -179,19 +179,19 @@ def main():
   write_event_code_summary(TARGET_DIR_FOR_GEN_DATA, event_codes)
   write_event_code_markdown(TARGET_DIR_FOR_GEN_DATA, event_codes)
 
-  # to_download = []
-  # for code in event_codes:
-  #   date_now = datetime.utcnow()
-  #   a_year_ago = date_now - relativedelta(months=LIMIT_FOR_DOWNLOAD_IN_MONTHS)
-  #   code_updated = dateutil.parser.isoparse(code['updated']).replace(tzinfo=None)
+  to_download = []
+  for code in event_codes:
+    date_now = datetime.utcnow()
+    a_year_ago = date_now - relativedelta(months=LIMIT_FOR_DOWNLOAD_IN_MONTHS)
+    code_updated = dateutil.parser.isoparse(code['updated']).replace(tzinfo=None)
     
-  #   if code_updated > a_year_ago:
-  #     print(f"Event code {code['link']} was updated within the last {LIMIT_FOR_DOWNLOAD_IN_MONTHS} months. Adding to list for download.")
-  #     to_download.append(code)
+    if code_updated > a_year_ago:
+      print(f"Event code {code['link']} was updated within the last {LIMIT_FOR_DOWNLOAD_IN_MONTHS} months. Adding to list for download.")
+      to_download.append(code)
 
-  # for code in to_download:
-  #   filename = download_valueset(code['guid'], TARGET_DIR_FOR_RAW_DATA)
-  #   unzip_and_remove(TARGET_DIR_FOR_RAW_DATA, filename)
+  for code in to_download:
+    filename = download_valueset(code['guid'], TARGET_DIR_FOR_RAW_DATA)
+    unzip_and_remove(TARGET_DIR_FOR_RAW_DATA, filename)
 
   print('Completed Event Code lookup and collection')
 
