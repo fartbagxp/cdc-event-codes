@@ -152,12 +152,14 @@ def download_valueset(id, target_path):
     data=raw_data
   )
 
-  s.get('https://phinvads.cdc.gov/vads/AJAXSelectValueSetDirectDownload.action?_=1665378527294',
+  milliseconds_since_epoch = int(datetime.now().timestamp() * 1000)
+  s.get(f'https://phinvads.cdc.gov/vads/AJAXSelectValueSetDirectDownload.action?_={milliseconds_since_epoch}',
     headers=headers,
     cookies=s.cookies
   )
 
-  s.get('https://phinvads.cdc.gov/vads/AJAXGenerateValueSetDirectDownload.action?_=1665378527334',
+  milliseconds_since_epoch = int(datetime.now().timestamp() * 1000)
+  s.get(f'https://phinvads.cdc.gov/vads/AJAXGenerateValueSetDirectDownload.action?_={milliseconds_since_epoch}',
     headers=headers,
     cookies=s.cookies
   )
