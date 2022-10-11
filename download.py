@@ -3,12 +3,14 @@
 import feedparser
 import os
 import re
+import sys
 import requests
 import zipfile
 
 from markdownTable import markdownTable
 
 TARGET_DIR="data/raw/"
+VALUESET_RSS_FEED_URL="https://phinvads.cdc.gov/vads/ValueSetRssFeed.xml?oid=2.16.840.1.114222.4.11.1015"
 
 def write(path=None, data=None):
   if data is None:
@@ -40,19 +42,37 @@ def summarize_rss(text):
 def write_markdown(event_codes):
   print(markdownTable(event_codes).getMarkdown())
 
-def unzip_and_remove(path, filename):
-  file_name = os.path.abspath(os.path.abspath(path, file_name))
-  zip_ref = zipfile.ZipFile(file_name)
-  zip_ref.extractall(path)
+def unzip_and_remove(target_dir, filename):
+  filepath = os.path.abspath(os.path.join(target_dir, filename))
+  zip_ref = zipfile.ZipFile(filepath)
+  zip_ref.extractall(target_dir)
   zip_ref.close()
-  os.remove(file_name)
+  os.remove(filepath)
 
-def download_rss():
-  rss_target="https://phinvads.cdc.gov/vads/ValueSetRssFeed.xml?oid=2.16.840.1.114222.4.11.1015"
-  r = requests.get(rss_target)
-  return r.text
+def get_url_filename(url, headers):
+  filename = ''
+  if "Content-Disposition" in headers.keys():
+    filename = re.findall("filename=(.+)", headers["Content-Disposition"])[0]
+  else:
+    filename = url.split("/")[-1].split("?")[0]
+  filename = filename.strip('\"')
+  return filename
 
-def download_valueset(id):
+def download_and_save_rss(url, target_path):
+  r = requests.get(url)
+  try: 
+    if r and r.text and r.headers and r.status_code == 200:
+      filename = get_url_filename(url, r.headers)
+
+      filepath = os.path.join(target_path, filename)
+      print(f'Saving RSS file to {filepath}.')
+      write(filepath, r.text)
+      return r.text
+  except Exception as err:
+    print(f'Exception error caught during RSS fetching: {err}')
+    return None
+
+def download_valueset(id, target_path):
   s = requests.Session()
   s.get(f'http://phinvads.cdc.gov/vads/ViewValueSet.action?id={id}')
   headers={
@@ -80,33 +100,32 @@ def download_valueset(id):
     cookies=s.cookies
   )
 
-  req = s.get('https://phinvads.cdc.gov/vads/RetrieveValueSetDirectDownload.action', 
+  res = s.get('https://phinvads.cdc.gov/vads/RetrieveValueSetDirectDownload.action', 
     headers=headers,
     cookies=s.cookies
   )
 
   # This seems to be the best way to figure out the filename, regardless if it's
   # encoded in utf-8 or just put into the content-disposition header.
-  fname = ''
-  if "Content-Disposition" in req.headers.keys():
-    fname = re.findall("filename=(.+)", req.headers["Content-Disposition"])[0]
-  else:
-    fname = url.split("/")[-1]
-  fname = fname.strip('\"')
+  filename = get_url_filename(res.url, res.headers)
 
-  print(f'Downloading "{fname}"')
-
-  with open(f'{TARGET_DIR}{fname}', 'wb') as f:
-    f.write(req.content)
+  print(f'Downloading "{filename}"')
+  filepath = os.path.join(target_path, filename)
+  with open(filepath, 'wb') as f:
+    f.write(res.content)
 
 def main():
   print('Starting Event Code lookup and collection')
-  text = download_rss()
+  text = download_and_save_rss(VALUESET_RSS_FEED_URL, TARGET_DIR)
+  if text == None:
+    print('Fetching RSS failure detected: exiting program.')
+    sys.exit(1)
   event_codes = summarize_rss(text)
-  write_markdown(event_codes)
-  # download_valueset('4FD34BBC-617F-DD11-B38D-00188B398520')
-  # download_valueset('A02D2588-5E66-DE11-9B52-0015173D1785')
-  # download_valueset('2FB63964-45BB-E711-ACE2-0017A477041A')
+  # write_markdown(event_codes)
+
+  download_valueset('4FD34BBC-617F-DD11-B38D-00188B398520', TARGET_DIR)
+  download_valueset('A02D2588-5E66-DE11-9B52-0015173D1785', TARGET_DIR)
+  download_valueset('2FB63964-45BB-E711-ACE2-0017A477041A', TARGET_DIR)
   print('Completed Event Code lookup and collection')
 
 if __name__ == '__main__':
