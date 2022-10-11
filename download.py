@@ -16,6 +16,7 @@ from markdownTable import markdownTable
 from urllib.parse import urlparse
 from urllib.parse import parse_qs
 
+GITHUB_REPO_LINK="https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/"
 TARGET_DIR_FOR_GEN_DATA="data/"
 TARGET_DIR_FOR_RAW_DATA="data/raw/"
 VALUESET_RSS_FEED_URL="https://phinvads.cdc.gov/vads/ValueSetRssFeed.xml?oid=2.16.840.1.114222.4.11.1015"
@@ -58,9 +59,14 @@ def summarize_rss(text):
       event_codes.append(code)
   return event_codes
 
-def write_event_code_summary(target_dir, event_codes):
+def write_event_code_summary(target_dir, target_dir_raw, event_codes):
   filename = 'event_code_files.json'
   filepath = os.path.join(target_dir, filename)
+  codes_for_machine = []
+  for code in event_codes:
+    version_num = re.findall('[0-9]+', code['version'])[0]
+    github_download_link = f"{GITHUB_REPO_LINK}{TARGET_DIR_FOR_RAW_DATA}ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V{version_num}.txt"
+    code['github_download'] = github_download_link
   json_object = json.dumps(event_codes, indent=2)
   write(filepath, json_object)
 
@@ -68,7 +74,6 @@ def write_event_code_markdown(target_dir, target_dir_raw, event_codes):
   filename = 'README.md'
   filepath = os.path.join(target_dir, filename)
   markdown_codes = []
-
   for code in event_codes:
     version_num = re.findall('[0-9]+', code['version'])[0]
     row = {
@@ -179,7 +184,7 @@ def main():
     print('Fetching RSS failure detected: exiting program.')
     sys.exit(1)
   event_codes = summarize_rss(text)
-  write_event_code_summary(TARGET_DIR_FOR_GEN_DATA, event_codes)
+  write_event_code_summary(TARGET_DIR_FOR_GEN_DATA, TARGET_DIR_FOR_RAW_DATA, event_codes)
   write_event_code_markdown(TARGET_DIR_FOR_GEN_DATA, TARGET_DIR_FOR_RAW_DATA, event_codes)
 
   to_download = []
