@@ -1,2 +1,2 @@
 Date/Time Created	VADS Content Version	VADS Application Version	Download Activity	Number of Items Selected
-10/20/2022 13:59:50	3.0.0	4.0.6.5	Value Set Object Direct Selection	N/A
+10/21/2022 13:54:32	3.0.0	4.0.6.5	Value Set Object Direct Selection	N/A
