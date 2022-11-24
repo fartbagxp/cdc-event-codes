@@ -6,6 +6,7 @@
     <description>Update notifications for new versions of this value set.</description>
     <items>
       <rdf:Seq>
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=EE0C4DCF-A264-4AF3-B9BA-118C419FFB6A" />
         <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=34ED25E7-F582-EC11-81AA-005056ABE2F0" />
         <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=61CDD7B3-F182-EC11-81AA-005056ABE2F0" />
         <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=E07E5EFA-829F-EA11-818D-005056ABE2F0" />
@@ -44,6 +45,12 @@
       </rdf:Seq>
     </items>
   </channel>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=EE0C4DCF-A264-4AF3-B9BA-118C419FFB6A">
+    <title>Version 36</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=EE0C4DCF-A264-4AF3-B9BA-118C419FFB6A</link>
+    <description>Value Set Version Description:v36 Event Code Vocabulary supporting 2022 NNDSS Event Code List Release 2</description>
+    <dc:date>2022-11-23T05:00:00Z</dc:date>
+  </item>
   <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=34ED25E7-F582-EC11-81AA-005056ABE2F0">
     <title>Version 35</title>
     <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=34ED25E7-F582-EC11-81AA-005056ABE2F0</link>

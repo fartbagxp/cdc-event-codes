@@ -1,5 +1,12 @@
 [
   {
+    "updated": "2022-11-23T05:00:00Z",
+    "version": "Version 36",
+    "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=EE0C4DCF-A264-4AF3-B9BA-118C419FFB6A",
+    "guid": "EE0C4DCF-A264-4AF3-B9BA-118C419FFB6A",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V36.txt"
+  },
+  {
     "updated": "2022-02-01T05:00:00Z",
     "version": "Version 35",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=34ED25E7-F582-EC11-81AA-005056ABE2F0",
