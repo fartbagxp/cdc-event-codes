@@ -6,6 +6,7 @@
     <description>Update notifications for new versions of this value set.</description>
     <items>
       <rdf:Seq>
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=11E7205A-B143-4B7F-9808-1662DF9E0C5C" />
         <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=7D78F9B8-119A-47D3-8907-8FB1B2EACF87" />
         <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=EE0C4DCF-A264-4AF3-B9BA-118C419FFB6A" />
         <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=34ED25E7-F582-EC11-81AA-005056ABE2F0" />
@@ -46,6 +47,12 @@
       </rdf:Seq>
     </items>
   </channel>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=11E7205A-B143-4B7F-9808-1662DF9E0C5C">
+    <title>Version 38</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=11E7205A-B143-4B7F-9808-1662DF9E0C5C</link>
+    <description>Value Set Version Description:V38: Updated to reflect 2023 Event Code List Version 2</description>
+    <dc:date>2023-04-21T04:00:00Z</dc:date>
+  </item>
   <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=7D78F9B8-119A-47D3-8907-8FB1B2EACF87">
     <title>Version 37</title>
     <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=7D78F9B8-119A-47D3-8907-8FB1B2EACF87</link>
