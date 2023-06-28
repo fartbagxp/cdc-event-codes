@@ -51,8 +51,8 @@
   <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=F162DC7D-901E-4C19-8F71-BBFA98D0A77F">
     <title>Version 39</title>
     <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=F162DC7D-901E-4C19-8F71-BBFA98D0A77F</link>
-    <description>Value Set Version Description:V39: Updated to reflect 2023 Event Code List Version 3</description>
-    <dc:date>2023-05-16T04:00:00Z</dc:date>
+    <description>Value Set Version Description:V39: Event Code Vocabulary supporting 2023 NNDSS Event Code List Release 3 and Release 4.</description>
+    <dc:date>2023-06-27T04:00:00Z</dc:date>
   </item>
   <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=11E7205A-B143-4B7F-9808-1662DF9E0C5C">
     <title>Version 38</title>
