@@ -16,14 +16,22 @@ For a programmatic readable version of updates, go [here](/data/event_code_files
 
 - Simple Setup
 
-```python
+```bash
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+- Update dependencies
+
+```bash
+sed -i 's/[~=]=/>=/' requirements.txt
+pip install --upgrade --force-reinstall -r requirements.txt
+pip freeze > requirements.txt
+```
+
 - Adding a new library
 
-```python
+```bash
 pip freeze > requirements.txt
 ```
