@@ -1,5 +1,5 @@
 Value Set Name	Value Set Code	Value Set OID	Value Set Version	Value Set Definition	Value Set Status	VS Last Updated Date	VS Release Comments
-Nationally Notifiable Disease Surveillance System (NNDSS) & Other Conditions of Public Health Importance	PHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS	2.16.840.1.114222.4.11.1015	38	List of notifiable events, which includes infectious and non-infectious diseases or conditions. This list includes events that are notifiable at the state and national level.	Published	01/03/2024	V38: Updated to reflect 2023 Event Code List Version 2
+Nationally Notifiable Disease Surveillance System (NNDSS) & Other Conditions of Public Health Importance	PHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS	2.16.840.1.114222.4.11.1015	40	List of notifiable events, which includes infectious and non-infectious diseases or conditions. This list includes events that are notifiable at the state and national level.	Published	01/03/2024	V40: Event Code Vocabulary supporting 2024 NNDSS Event Code List Release 1.
 
 Concept Code	Concept Name	Preferred Concept Name	Preferred Alternate Code	Code System OID	Code System Name	Code System Code	Code System Version	HL7 Table 0396 Code
 50225	Acanthamoeba disease (excluding keratitis)	Acanthamoeba disease (excluding keratitis)		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
@@ -24,8 +24,7 @@ Concept Code	Concept Name	Preferred Concept Name	Preferred Alternate Code	Code S
 11020	Campylobacteriosis	Campylobacteriosis		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
 50263	Candida auris, clinical	Candida auris, clinical		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
 50264	Candida auris, screening	Candida auris, screening		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
-50244	Carbapenemase-producing carbapenem-resistant Enterobacteriaceae (CP-CRE)	Carbapenemase-producing carbapenem-resistant Enterobacteriaceae (CP-CRE)		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
-50270	Carbapenemase-Producing Organisms (CPO), clinical	Carbapenemase-Producing Organisms (CPO), clinical		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
+50270	Carbapenemase-Producing Organisms (CPO), clinical 	Carbapenemase-Producing Organisms (CPO), clinical 		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
 50271	Carbapenemase-Producing Organisms (CPO), screening	Carbapenemase-Producing Organisms (CPO), screening		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
 32016	Carbon monoxide poisoning	Carbon monoxide poisoning		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
 10273	Chancroid	Chancroid		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
@@ -48,7 +47,6 @@ Concept Code	Concept Name	Preferred Concept Name	Preferred Alternate Code	Code S
 11630	Ebola hemorrhagic fever	Ebola hemorrhagic fever		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
 11088	Ehrlichia chaffeensis	Ehrlichia chaffeensis		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
 11089	Ehrlichia ewingii	Ehrlichia ewingii		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
-11091	Ehrlichiosis/Anaplasmosis, undetermined	Ehrlichiosis/Anaplasmosis, undetermined		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
 11566	Enterotoxigenic E.coli (ETEC)	Enterotoxigenic E.coli (ETEC)		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
 50237	Flavivirus disease, not otherwise specified	Flavivirus disease, not otherwise specified		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
 11570	Giardiasis	Giardiasis		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
@@ -60,12 +58,12 @@ Concept Code	Concept Name	Preferred Concept Name	Preferred Alternate Code	Code S
 11590	Hantavirus pulmonary syndrome	Hantavirus pulmonary syndrome		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
 11550	Hemolytic uremic syndrome postdiarrheal	Hemolytic uremic syndrome postdiarrheal		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
 10110	Hepatitis A, acute	Hepatitis A, acute		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
-10105	Hepatitis B virus infection, chronic	Hepatitis B virus infection, chronic		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
 10100	Hepatitis B, acute	Hepatitis B, acute		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
-10104	Hepatitis B, perinatal infection	Hepatitis B, perinatal infection		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
+10105	Hepatitis B, chronic	Hepatitis B, chronic		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
+10104	Hepatitis B, perinatal	Hepatitis B, perinatal		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
 10101	Hepatitis C, acute	Hepatitis C, acute		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
 10106	Hepatitis C, Chronic	Hepatitis C, Chronic		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
-50248	Hepatitis C, perinatal infection	Hepatitis C, perinatal infection		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
+50248	Hepatitis C, perinatal	Hepatitis C, perinatal		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
 10103	Hepatitis E, acute	Hepatitis E, acute		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
 11915	Histoplasmosis	Histoplasmosis		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
 11061	Influenza-associated pediatric mortality	Influenza-associated pediatric mortality		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
@@ -132,7 +130,6 @@ Concept Code	Concept Name	Preferred Concept Name	Preferred Alternate Code	Code S
 10313	Syphilis, early non-primary, non-secondary	Syphilis, early non-primary, non-secondary		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
 10311	Syphilis, primary	Syphilis, primary		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
 10312	Syphilis, secondary	Syphilis, secondary		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
-10310	Syphilis, total primary and secondary	Syphilis, total primary and secondary		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
 10320	Syphilis, unknown duration or late	Syphilis, unknown duration or late		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
 10210	Tetanus	Tetanus		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
 10074	Tick-borne Encephalitis viruses	Tick-borne Encephalitis viruses		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
@@ -155,5 +152,3 @@ Concept Code	Concept Name	Preferred Concept Name	Preferred Alternate Code	Code S
 11565	Yersiniosis (non-pestis)	Yersiniosis (non-pestis)		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
 50224	Zika virus disease, congenital	Zika virus disease, congenital		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
 50223	Zika virus disease, non-congenital	Zika virus disease, non-congenital		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
-50222	Zika virus infection, congenital	Zika virus infection, congenital		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
-50221	Zika virus infection, non-congenital	Zika virus infection, non-congenital		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20231231	NND
