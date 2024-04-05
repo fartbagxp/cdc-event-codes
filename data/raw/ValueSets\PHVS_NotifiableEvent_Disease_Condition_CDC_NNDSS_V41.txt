@@ -1,5 +1,5 @@
 Value Set Name	Value Set Code	Value Set OID	Value Set Version	Value Set Definition	Value Set Status	VS Last Updated Date	VS Release Comments
-Nationally Notifiable Disease Surveillance System (NNDSS) & Other Conditions of Public Health Importance	PHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS	2.16.840.1.114222.4.11.1015	40	List of notifiable events, which includes infectious and non-infectious diseases or conditions. This list includes events that are notifiable at the state and national level.	Published	04/04/2024	V40: Event Code Vocabulary supporting 2024 NNDSS Event Code List Release 1.
+Nationally Notifiable Disease Surveillance System (NNDSS) & Other Conditions of Public Health Importance	PHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS	2.16.840.1.114222.4.11.1015	41	List of notifiable events, which includes infectious and non-infectious diseases or conditions. This list includes events that are notifiable at the state and national level.	Published	04/04/2024	V41: Event Code Vocabulary supporting 2024 NNDSS Event Code List Release 2.
 
 Concept Code	Concept Name	Preferred Concept Name	Preferred Alternate Code	Code System OID	Code System Name	Code System Code	Code System Version	HL7 Table 0396 Code
 50225	Acanthamoeba disease (excluding keratitis)	Acanthamoeba disease (excluding keratitis)		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
@@ -34,8 +34,11 @@ Concept Code	Concept Name	Preferred Concept Name	Preferred Alternate Code	Code S
 10470	Cholera (toxigenic Vibrio cholerae O1 or O139)	Cholera (toxigenic Vibrio cholerae O1 or O139)		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
 11900	Coccidioidomycosis	Coccidioidomycosis		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
 10093	Colorado tick fever virus disease	Colorado tick fever virus disease		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
+13051	Congenital cytomegalovirus disease	Congenital cytomegalovirus disease		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
+13050	Congenital cytomegalovirus infection	Congenital cytomegalovirus infection		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
 11065	Coronavirus Disease 2019 (COVID-19)	Coronavirus Disease 2019 (COVID-19)		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
 11640	Crimean-Congo hemorrhagic fever	Crimean-Congo hemorrhagic fever		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
+13060	Cronobacter invasive infection, infants	Cronobacter invasive infection, infants		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
 11580	Cryptosporidiosis	Cryptosporidiosis		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
 11575	Cyclosporiasis	Cyclosporiasis		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
 10680	Dengue	Dengue		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
@@ -47,6 +50,8 @@ Concept Code	Concept Name	Preferred Concept Name	Preferred Alternate Code	Code S
 11630	Ebola hemorrhagic fever	Ebola hemorrhagic fever		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
 11088	Ehrlichia chaffeensis	Ehrlichia chaffeensis		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
 11089	Ehrlichia ewingii	Ehrlichia ewingii		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
+11092	Ehrlichia muris eauclairensis	Ehrlichia muris eauclairensis		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
+11093	Ehrlichia, other spp. or unspeciated	Ehrlichia, other spp. or unspeciated		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
 11566	Enterotoxigenic E.coli (ETEC)	Enterotoxigenic E.coli (ETEC)		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
 50237	Flavivirus disease, not otherwise specified	Flavivirus disease, not otherwise specified		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
 11570	Giardiasis	Giardiasis		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
@@ -134,6 +139,11 @@ Concept Code	Concept Name	Preferred Concept Name	Preferred Alternate Code	Code S
 10210	Tetanus	Tetanus		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
 10074	Tick-borne Encephalitis viruses	Tick-borne Encephalitis viruses		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
 10520	Toxic-shock syndrome (other than streptococcal)	Toxic-shock syndrome (other than streptococcal)		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
+13070	Toxoplasmosis	Toxoplasmosis		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
+13072	Toxoplasmosis, active- primary infection	Toxoplasmosis, active- primary infection		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
+13073	Toxoplasmosis, active- reactivation disease	Toxoplasmosis, active- reactivation disease		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
+13071	Toxoplasmosis, congenital	Toxoplasmosis, congenital		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
+13074	Toxoplasmosis, past infection/unable to classify	Toxoplasmosis, past infection/unable to classify		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
 10270	Trichinellosis	Trichinellosis		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
 11724	Trivittatus virus disease	Trivittatus virus disease		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND
 10220	Tuberculosis	Tuberculosis		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	20240325	NND

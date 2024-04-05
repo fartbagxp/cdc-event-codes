@@ -1,5 +1,12 @@
 [
   {
+    "updated": "2024-04-04T04:00:00Z",
+    "version": "Version 41",
+    "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=8840CAB3-E425-4AF1-80FB-1851B50C2BB0",
+    "guid": "8840CAB3-E425-4AF1-80FB-1851B50C2BB0",
+    "github_download": "https://raw.githubusercontent.com/fartbagxp/cdc-event-codes/main/data/raw/ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V41.txt"
+  },
+  {
     "updated": "2024-01-03T05:00:00Z",
     "version": "Version 40",
     "link": "http://phinvads.cdc.gov/vads/ViewValueSet.action?id=DAA542A7-9D50-4706-9AA6-1DBFDDFF9D2D",
