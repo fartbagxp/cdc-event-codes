@@ -10,9 +10,9 @@ import sys
 import requests
 import zipfile
 
-from datetime import datetime
+from datetime import datetime, timezone
 from dateutil.relativedelta import relativedelta
-from markdownTable import markdownTable
+from py_markdown_table.markdown_table import markdown_table
 from urllib.parse import urlparse
 from urllib.parse import parse_qs
 
@@ -62,7 +62,6 @@ def summarize_rss(text):
 def write_event_code_summary(target_dir, target_dir_raw, event_codes):
   filename = 'event_code_files.json'
   filepath = os.path.join(target_dir, filename)
-  codes_for_machine = []
   for code in event_codes:
     version_num = re.findall('[0-9]+', code['version'])[0]
     github_download_link = f"{GITHUB_REPO_LINK}{TARGET_DIR_FOR_RAW_DATA}ValueSets%5CPHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS_V{version_num}.txt"
@@ -88,9 +87,9 @@ def write_event_code_markdown(target_dir, target_dir_raw, event_codes):
   template_filepath = os.path.join(target_dir, template_filename)
   shutil.copyfile(template_filepath, filepath)
   with open(filepath, 'a') as f:
-    f.write(markdownTable(markdown_codes)
-      .setParams(row_sep = 'markdown', quote = False)
-      .getMarkdown())
+    f.write(markdown_table(markdown_codes)
+      .set_params(row_sep = 'markdown', quote = False)
+      .get_markdown())
 
 def unzip_and_remove(target_dir, filename):
   filepath = os.path.join(target_dir, filename)
@@ -182,7 +181,7 @@ def download_valueset(id, target_path):
 def main():
   print('Starting Event Code lookup and collection')
   text = download_and_save_rss(VALUESET_RSS_FEED_URL, TARGET_DIR_FOR_RAW_DATA)
-  if text == None:
+  if text is None:
     print('Fetching RSS failure detected: exiting program.')
     sys.exit(1)
   event_codes = summarize_rss(text)
@@ -191,9 +190,9 @@ def main():
 
   to_download = []
   for code in event_codes:
-    date_now = datetime.utcnow()
+    date_now = datetime.now(timezone.utc)
     a_year_ago = date_now - relativedelta(months=LIMIT_FOR_DOWNLOAD_IN_MONTHS)
-    code_updated = dateutil.parser.isoparse(code['updated']).replace(tzinfo=None)
+    code_updated = dateutil.parser.isoparse(code['updated']).replace(tzinfo=timezone.utc)
     
     if code_updated > a_year_ago:
       print(f"Event code {code['link']} was updated within the last {LIMIT_FOR_DOWNLOAD_IN_MONTHS} months. Adding to list for download.")
