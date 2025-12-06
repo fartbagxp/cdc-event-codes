@@ -1,5 +1,7 @@
 # CDC Event Code
 
+![Last Run](https://github.com/fartbagxp/cdc-event-codes/actions/workflows/main.yml/badge.svg)
+
 This repository is a continuous scrape of CDC event codes / value set from public health information network (PHIN)'s notifiable event disease condition.
 
 ## Resources
