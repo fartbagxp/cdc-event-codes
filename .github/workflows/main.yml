@@ -8,34 +8,31 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Write access is needed to push changes back to the repository
     steps:
-      - name: Checkout the codebase
-        uses: actions/checkout@v4
-
-      - name: Setup / Install Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3 # v6.0.0
         with:
-          python-version: '3.11'
-          cache: 'pip' # caching pip dependencies
+          fetch-depth: 0
+          persist-credentials: true
 
-      - name: Install third party libraries
-        run: pip install -r requirements.txt
-
-      - name: Running event code script
-        run: python download.py
-
-      - name: Commit CDC Event Code changes
-        uses: EndBug/add-and-commit@v9
+      - name: Install the latest version of uv
+        uses: astral-sh/setup-uv@1e862dfacbd1d6d858c55d9b792c756523627244 # v7.1.4
         with:
-          author_name: Github Action Bot
-          author_email: noreply@github.com
-          message: 'Daily update of CDC event code changes'
-          add: 'data/*'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          version: 'latest'
 
-      - name: Push changes
-        uses: ad-m/github-push-action@v0.8.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+      - name: Running backup script
+        run: |
+          uv run python download.py
+
+      - name: Commit and push changes
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git status
+          git config --local user.email "noreply@github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/raw/
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "Nightly update of raw DOGE changes - $(date +'%Y-%m-%d')"
+            git push -u origin main
+          fi

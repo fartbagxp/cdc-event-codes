@@ -8,30 +8,14 @@ This repository is a continuous scrape of CDC event codes / value set from publi
 
 ## Latest Version
 
-You can find the list of updates [here](/data/README.md).
+Review the [list of updates](/data/README.md).
 
-For a programmatic readable version of updates, go [here](/data/event_code_files.json).
+Review the [programmatic readable version of updates](/data/event_code_files.json).
 
-## Setup
+## How to run
 
-- Simple Setup
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
-
-- Update dependencies
+With [uv](https://github.com/astral-sh/uv), run it locally:
 
 ```bash
-sed -i 's/[~=]=/>=/' requirements.txt
-pip install --upgrade --force-reinstall -r requirements.txt
-pip freeze > requirements.txt
-```
-
-- Adding a new library
-
-```bash
-pip freeze > requirements.txt
+uv run python download.py
 ```
