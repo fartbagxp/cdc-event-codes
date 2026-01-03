@@ -6,6 +6,7 @@
     <description>Update notifications for new versions of this value set.</description>
     <items>
       <rdf:Seq>
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=6F14BF0C-3055-4C51-98FC-17BE3C3039F2" />
         <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=A028DDC9-DAFD-EF11-81EC-005056ABE2F0" />
         <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=8840CAB3-E425-4AF1-80FB-1851B50C2BB0" />
         <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=DAA542A7-9D50-4706-9AA6-1DBFDDFF9D2D" />
@@ -51,6 +52,12 @@
       </rdf:Seq>
     </items>
   </channel>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=6F14BF0C-3055-4C51-98FC-17BE3C3039F2">
+    <title>Version 43</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=6F14BF0C-3055-4C51-98FC-17BE3C3039F2</link>
+    <description>Value Set Version Description:V43: Event Code Vocabulary supporting 2025 NNDSS Event Code List Release 2.</description>
+    <dc:date>2025-12-31T05:00:00Z</dc:date>
+  </item>
   <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=A028DDC9-DAFD-EF11-81EC-005056ABE2F0">
     <title>Version 42</title>
     <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=A028DDC9-DAFD-EF11-81EC-005056ABE2F0</link>
