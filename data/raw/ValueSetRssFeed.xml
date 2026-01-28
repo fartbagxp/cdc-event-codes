@@ -6,6 +6,7 @@
     <description>Update notifications for new versions of this value set.</description>
     <items>
       <rdf:Seq>
+        <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=4F7AE403-D7EB-4698-A7EC-A3F7F2221D56" />
         <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=6F14BF0C-3055-4C51-98FC-17BE3C3039F2" />
         <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=A028DDC9-DAFD-EF11-81EC-005056ABE2F0" />
         <rdf:li resource="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=8840CAB3-E425-4AF1-80FB-1851B50C2BB0" />
@@ -52,6 +53,12 @@
       </rdf:Seq>
     </items>
   </channel>
+  <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=4F7AE403-D7EB-4698-A7EC-A3F7F2221D56">
+    <title>Version 44</title>
+    <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=4F7AE403-D7EB-4698-A7EC-A3F7F2221D56</link>
+    <description>Value Set Version Description:Initial Import for : CB82B3A0-607F-DD11-B38D-00188B398520</description>
+    <dc:date>2026-01-27T19:58:44Z</dc:date>
+  </item>
   <item rdf:about="http://phinvads.cdc.gov/vads/ViewValueSet.action?id=6F14BF0C-3055-4C51-98FC-17BE3C3039F2">
     <title>Version 43</title>
     <link>http://phinvads.cdc.gov/vads/ViewValueSet.action?id=6F14BF0C-3055-4C51-98FC-17BE3C3039F2</link>
