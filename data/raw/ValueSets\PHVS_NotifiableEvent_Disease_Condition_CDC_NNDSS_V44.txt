@@ -1,5 +1,5 @@
 Value Set Name	Value Set Code	Value Set OID	Value Set Version	Value Set Definition	Value Set Status	VS Last Updated Date	VS Release Comments
-Nationally Notifiable Disease Surveillance System (NNDSS) & Other Conditions of Public Health Importance	PHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS	2.16.840.1.114222.4.11.1015	44	List of notifiable events, which includes infectious and non-infectious diseases or conditions. This list includes events that are notifiable at the state and national level.	Published	03/10/2025	Initial Import for : CB82B3A0-607F-DD11-B38D-00188B398520
+Nationally Notifiable Disease Surveillance System (NNDSS) & Other Conditions of Public Health Importance	PHVS_NotifiableEvent_Disease_Condition_CDC_NNDSS	2.16.840.1.114222.4.11.1015	44	List of notifiable events, which includes infectious and non-infectious diseases or conditions. This list includes events that are notifiable at the state and national level.	Published	03/10/2025	V44: Event Code Vocabulary supporting 2026 NNDSS Event Code List Release 1.
 
 Concept Code	Concept Name	Preferred Concept Name	Preferred Alternate Code	Code System OID	Code System Name	Code System Code	Code System Version	HL7 Table 0396 Code
 50225	Acanthamoeba disease (excluding keratitis)	Acanthamoeba disease (excluding keratitis)		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	v44	NND
@@ -50,7 +50,6 @@ Concept Code	Concept Name	Preferred Concept Name	Preferred Alternate Code	Code S
 11575	Cyclosporiasis	Cyclosporiasis		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	v44	NND
 10680	Dengue	Dengue		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	v44	NND
 11705	Dengue, severe	Dengue, severe		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	v44	NND
-11704	Dengue-like illness	Dengue-like illness		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	v44	NND
 10040	Diphtheria	Diphtheria		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	v44	NND
 10053	Eastern equine encephalitis virus disease, neuroinvasive	Eastern equine encephalitis virus disease, neuroinvasive		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	v44	NND
 10062	Eastern equine encephalitis virus disease, non-neuroinvasive	Eastern equine encephalitis virus disease, non-neuroinvasive		2.16.840.1.114222.4.5.277	Notifiable Event (Disease/Condition) Code List	PH_NotifiableEvent_Disease_Condition_CDC_NNDSS	v44	NND
